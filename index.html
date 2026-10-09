@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Visual Discoveries</h1>
+        <p>A curated collection of stunning moments</p>
+    </header>
+
+    <main class="gallery-container">
+        <!-- 8 Images for the gallery -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=800"
+                alt="Majestic mountains during sunset" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrY7zhY8arR_8rjxacSsw4ex1ZlmlpotQ2USMG6aRb-w&s=10"
+                alt="Desert dunes under clear sky" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1682687220199-d0124f48f95b?auto=format&fit=crop&q=80&w=800"
+                alt="Beautiful coastal rock formations" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://media.istockphoto.com/id/847331154/photo/mount-rainier-and-reflection-lake-washington-usa.jpg?s=612x612&w=0&k=20&c=Dlj8mH3_z7w8c7UR_6w7r3_a2MJ7mOz9_A6gApQVneQ="
+                alt="Green forest reflecting on a calm lake" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDpiPtzXwFnYHYih1dytxe0Q-Q91z4QeG_icmCieADsA&s=10"
+                alt="Aerial view of a winding river" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1682687982185-531d09ec56fc?auto=format&fit=crop&q=80&w=800"
+                alt="Snow-capped mountain peaks" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd5Vcp4UVOe8qd9otn5zJxJ0F1y7fzAZUylsibN746og&s=10"
+                alt="Golden sunlight piercing through clouds" loading="lazy">
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1682685797769-481b48222adf?auto=format&fit=crop&q=80&w=800"
+                alt="Vibrant aurora borealis night sky" loading="lazy">
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" aria-label="Close modal">&times;</span>
+        <div class="lightbox-content-wrapper">
+            <img id="lightbox-img" class="lightbox-content" src="" alt="Expanded Image">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
